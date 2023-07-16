@@ -1,0 +1,872 @@
+/* NAVBAR */
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.tombol{
+    border-radius: 40px;
+}
+
+.navbar-brand, .nav-link{
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    /* font-family: 'Arvo', serif; */
+
+}
+
+/* HEADER */
+.tron{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.p{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 10px;
+}
+
+.hero{
+    /* background-image: url(laundry.jpg); */
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(laundry.jpg); */
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)),url(tradisional.png);
+
+    /* background-color: bisque; */
+    background-position: top center;
+    position: relative;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.5);
+}
+
+/* abi */
+.hero1{
+    /* background-image: url(img/ilustrasi-mesin-cuci-laundy.jpg); */
+    background-size: cover;
+    /* background-color: rgb(82, 12, 12); */
+    /* background-image: url(Samed.png); */
+    background-color: white;
+    background-position: top center;
+    position: relative;
+    /* margin-left: -20px;  */
+}
+
+.tronabt{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* font-family: 'Arvo', serif; */
+    text-transform: uppercase;
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+}
+
+.title{
+  margin-top: 30px;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-weight: bold; */
+  margin-bottom: 30px;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-weight: bold; */
+  font-size: 55px;
+  font-weight: 500;
+  display: none;
+}
+
+.img1{
+    /* margin-top: 50px;
+    margin-left: 15px; */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.abt{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.abt h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-align: left;
+  /* margin-top: 20px; */
+  /* margin-top: 200px; */
+} 
+
+.abt h2 span {
+  font-weight: 400;
+}
+
+/* .abt h1{
+    /* font-family: 'Lora', serif; */ /*
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+} */
+
+.abt p{
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.abt a{
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    /* height: auto;
+    width: 100vw; */
+    height: auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+    margin-left: -30px;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.grid {
+    display: grid;
+  }
+  
+      .heropr{
+          /* background-image: url(img/ilustrasi-mesin-cuci-laundy.jpg); */
+          background-size: cover;
+          /* background-color: rgb(82, 12, 12); */
+          /* background-image: url(Mentahan.png); */
+          background-color: rgb(236, 233, 233);
+          background-position: top center;
+          position: relative;
+          /* margin-left: 100px;  */
+      }
+  
+      .tronpr{
+          min-height: 100vh;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          /* justify-content: center; */
+          color: rgb(0, 0, 0);
+          /* text-align: center; */
+          /* font-family: 'Arvo', serif; */
+          /* text-transform: uppercase; */
+          /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+      }
+  
+  /*==================== crd PRICING ====================*/
+  .crd {
+    padding: 3rem 0;
+  }
+  
+  .crd__container {
+    gap: 3rem 1.25rem;
+  }
+  
+  .crd__content {
+    position: relative;
+    background-color: #FFF;
+    padding: 2rem 1.5rem 2.5rem;
+    border-radius: 1.75rem;
+    box-shadow: 0 12px 24px;
+    transition: .4s;
+  }
+  
+  .crd__content:hover {
+    box-shadow: 0 16px 24px;
+  }
+  
+  .crd__header-img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .crd__header-circle {
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(123, 123, 129); */
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    place-items: center;
+  }
+  
+  .crd__header-subtitle {
+    display: block;
+    font-size: .75rem;
+    color: rgb(128, 128, 128);
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+  }
+  
+  .crd__header-title {
+    font-size: 2.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* .crd__pricing {
+    position: absolute;
+    background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
+    width: 60px;
+    height: 88px;
+    right: 1.5rem;
+    top: -1rem;
+    padding-top: 1.25rem;
+    text-align: center;
+  }
+  
+  .crd__pricing-number {
+    font-family: var(--pricing-font);
+  }
+  
+  .crd__pricing-symbol {
+    font-size: var(--smaller-font-size);
+  }
+  
+  .crd__pricing-number {
+    font-size: var(--h2-font-size);
+  }
+  
+  .crd__pricing-month {
+    display: block;
+    font-size: var(--tiny-font-size);
+  }
+  
+  .crd__pricing-number, 
+  .crd__pricing-month {
+    color: var(--white-color);
+  }
+  
+  .crd__pricing::after, 
+  .crd__pricing::before {
+    content: '';
+    position: absolute;
+  }
+  
+  .crd__pricing::after {
+    width: 100%;
+    height: 14px;
+    background-color: var(--white-color);
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  }
+  
+  .crd__pricing::before {
+    width: 14px;
+    height: 16px;
+    background-color: var(--first-color-alt);
+    top: 0;
+    left: -14px;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  } */
+  
+  .crd__list {
+    row-gap: .5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .crd__list-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .crd__list-icon {
+    font-size: 1.5rem;
+    color: green;
+    margin-right: .5rem;
+  }
+  
+  .crd__button {
+    padding: 1.25rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: .5rem;
+    background: rgb(56, 51, 123);
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+  /* .crd__button:hover {
+    box-shadow: 0 12px 24px hsla(var(--hue-color), 97%, 54%, 0.2);
+  } */
+  
+  /*==================== MEDIA QUERIES ====================*/
+  /* For small devices */
+  @media screen and (max-width: 320px) {
+    /* .container {
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+    } */
+    .crd__content {
+      padding: 2rem 1.25rem;
+      border-radius: 1rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (min-width: 568px) {
+    .crd__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .crd__content {
+      grid-template-rows: repeat(2, max-content);
+    }
+    .crd__button {
+      align-self: flex-end;
+    }
+  }
+  
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    /* .container {
+      margin-left: auto;
+      margin-right: auto;
+    } */
+    .crd {
+      height: 100vh;
+      align-items: center;
+    }
+    .crd__container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .crd__header-circle {
+      margin-bottom: var(--mb-1-25);
+    }
+    .crd__header-subtitle {
+      font-size: var(--small-font-size);
+    }
+  }
+
+
+
+
+/* DEKSTOP */
+@media (min-width: 992px) {
+/* navbar */
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav--link{
+      display: block;
+    }
+    
+    .tombol{
+        border-radius: 40px;
+    }
+    
+    .ml{
+        margin-left: auto;
+    }
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    }
+
+    .navbar-brand{
+        font-family: 'Lobster', cursive;
+        font-size: 32px;
+    }
+
+/* header */
+    .tron{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        
+    }
+
+    .p{
+        font-family: 'Rubik', sans-serif;
+        margin-top: 10px;
+    }
+    
+    .hero{
+        /* background-image: url(laundry.jpg); */
+        /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(laundry.jpg); */
+        background-size: cover;
+        background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)),url(laundry.jpg);
+        background-attachment: fixed;
+        /* background-color: bisque; */
+        background-position: top center;
+        position: relative;
+        box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.5);
+    }
+    
+/* about */
+    .hero1{
+        /* background-image: url(img/ilustrasi-mesin-cuci-laundy.jpg); */
+        background-size: cover;
+        /* background-color: rgb(82, 12, 12); */
+        /* background-image: url(Mentahan.png); */
+        background-color: white;
+        background-position: top center;
+        position: relative;
+        /* margin-left: -20px;  */
+    }
+
+    .tronabt{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        /* font-family: 'Arvo', serif; */
+        text-transform: uppercase;
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+    }
+    
+    .title{
+      margin-top: 90px;
+      /* font-family: 'Josefin Sans', sans-serif; */
+      /* font-weight: bold; */
+      font-size: 55px;
+      font-weight: 500;
+      display: block;
+    }
+
+    .img1{
+        margin-top: 40px;
+        /* margin-top: 230px; */
+        margin-left: -10px;
+    }
+
+    .abt{
+        font-size: 18px;
+        margin-top: 30px;
+        margin-right: -0px;
+        margin-left: 30px;
+        /* margin-left: 100px; */
+    }
+
+    .abt h2 {
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: 200;
+      text-align: left;
+      /* margin-top: 20px; */
+      /* margin-top: 200px; */
+    } 
+  
+    .abt h2 span {
+      font-weight: 400;
+    }
+
+    /* .abt h1{
+        /* font-family: 'Lora', serif; */ /*
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+    } */
+
+    .abt p{
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .abt a{
+        font-family: 'Rubik', sans-serif;
+        margin-right: 350px;
+        margin-left: -2px;
+    }
+
+/* footer */
+    footer{
+        background-color: black;
+        /* height: auto;
+        width: 100vw; */
+        height: auto;
+        width: 100%;
+        font-family: 'Rubik', sans-serif;
+        padding-top: 40px;
+        color: white;
+    }
+    
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content h3{
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+        font-family: 'Lobster', cursive;
+    }
+
+    .footer-content p{
+        max-width: 500px;
+        margin: 5px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
+
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem ;
+        margin-left: -30px;
+    }
+
+    .socials li{
+        margin: 0 10px;
+    }
+
+    .socials a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .socials a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    }
+
+    .socials a:hover i{
+        color: aqua;
+    }
+
+    .footer-bottom{
+        background-color: black;
+        width: 100vw;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-bottom p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+
+    /* PRICING CARD */
+    .grid {
+        display: grid;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+      
+          .heropr{
+              /* background-image: url(img/ilustrasi-mesin-cuci-laundy.jpg); */
+              background-size: cover;
+              /* background-color: rgb(82, 12, 12); */
+              /* background-image: url(Mentahan.png); */
+              background-color: rgb(236, 233, 233);
+              background-position: top center;
+              position: relative;
+              /* margin-left: 100px;  */
+          }
+      
+          .tronpr{
+              min-height: 100vh;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              /* justify-content: center; */
+              color: rgb(0, 0, 0);
+              /* text-align: center; */
+              /* font-family: 'Arvo', serif; */
+              /* text-transform: uppercase; */
+              /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+          }
+      
+      /*==================== crd PRICING ====================*/
+      .crd {
+        padding: 3rem 0;
+        height: 100vh;
+      }
+      
+      .crd__container {
+        gap: 3rem 1.25rem;
+      }
+      
+      .crd__content {
+        position: relative;
+        background-color: #FFF;
+        padding: 2rem 1.5rem 2.5rem;
+        border-radius: 1.75rem;
+        box-shadow: 0 12px 24px;
+        transition: .4s;
+      }
+      
+      .crd__content:hover {
+        box-shadow: 0 16px 24px;
+      }
+      
+      .crd__header-img {
+        width: 30px;
+        height: 30px;
+      }
+      
+      .crd__header-circle {
+        width: 40px;
+        height: 40px;
+        /* background-color: rgb(123, 123, 129); */
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        place-items: center;
+      }
+      
+      .crd__header-subtitle {
+        display: block;
+        font-size: .75rem;
+        color: rgb(128, 128, 128);
+        text-transform: uppercase;
+        margin-bottom: .25rem;
+      }
+      
+      .crd__header-title {
+        font-size: 2.125rem;
+        margin-bottom: 1rem;
+      }
+      
+      /* .crd__pricing {
+        position: absolute;
+        background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
+        width: 60px;
+        height: 88px;
+        right: 1.5rem;
+        top: -1rem;
+        padding-top: 1.25rem;
+        text-align: center;
+      }
+      
+      .crd__pricing-number {
+        font-family: var(--pricing-font);
+      }
+      
+      .crd__pricing-symbol {
+        font-size: var(--smaller-font-size);
+      }
+      
+      .crd__pricing-number {
+        font-size: var(--h2-font-size);
+      }
+      
+      .crd__pricing-month {
+        display: block;
+        font-size: var(--tiny-font-size);
+      }
+      
+      .crd__pricing-number, 
+      .crd__pricing-month {
+        color: var(--white-color);
+      }
+      
+      .crd__pricing::after, 
+      .crd__pricing::before {
+        content: '';
+        position: absolute;
+      }
+      
+      .crd__pricing::after {
+        width: 100%;
+        height: 14px;
+        background-color: var(--white-color);
+        left: 0;
+        bottom: 0;
+        clip-path: polygon(0 100%, 50% 0, 100% 100%);
+      }
+      
+      .crd__pricing::before {
+        width: 14px;
+        height: 16px;
+        background-color: var(--first-color-alt);
+        top: 0;
+        left: -14px;
+        clip-path: polygon(0 100%, 100% 0, 100% 100%);
+      } */
+      
+      .crd__list {
+        row-gap: .5rem;
+        margin-bottom: 2rem;
+      }
+      
+      .crd__list-item {
+        display: flex;
+        align-items: center;
+      }
+      
+      .crd__list-icon {
+        font-size: 1.5rem;
+        color: green;
+        margin-right: .5rem;
+      }
+      
+      .crd__button {
+        padding: 1.25rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: .5rem;
+        background: rgb(56, 51, 123);
+        color: white;
+        cursor: pointer;
+        transition: .4s;
+      }
+      
+      /* .crd__button:hover {
+        box-shadow: 0 12px 24px hsla(var(--hue-color), 97%, 54%, 0.2);
+      } */
+      
+      /*==================== MEDIA QUERIES ====================*/
+      /* For small devices */
+      @media screen and (max-width: 320px) {
+        /* .container {
+          margin-left: var(--mb-1);
+          margin-right: var(--mb-1);
+        } */
+        .crd__content {
+          padding: 2rem 1.25rem;
+          border-radius: 1rem;
+        }
+      }
+      
+      /* For medium devices */
+      @media screen and (min-width: 568px) {
+        .crd__container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .crd__content {
+          grid-template-rows: repeat(2, max-content);
+        }
+        .crd__button {
+          align-self: flex-end;
+        }
+      }
+      
+      /* For large devices */
+      @media screen and (min-width: 968px) {
+        /* .container {
+          margin-left: auto;
+          margin-right: auto;
+        } */
+        .crd {
+          height: 100vh;
+          align-items: center;
+        }
+        .crd__container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        /* .crd__header-circle {
+          margin-bottom: var(--mb-1-25);
+        } */
+        /* .crd__header-subtitle {
+          font-size: var(--small-font-size);
+        } */
+      }
+}
+
+
